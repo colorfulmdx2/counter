@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button,
+button:active,
+button:focus {
+  outline: none;
+
+
+
+}
+button:active {
+  border: 10px solid greenyellow;
+  transition: all 0.1s ease-out;
+}
+
+button {
+  background-color: steelblue;
+  color: whitesmoke;
+  font-size: 40px;
+  padding: 10px;
+
+  border: 1px solid white;
+  border-radius: 40px;
+}
+.input {
+  font-size: 20px;
+}
